@@ -4,8 +4,8 @@ postfix:
     - "25:25"
   container_name: mailrelay
   environment:
-    - SMTP_LOGIN=serv_datascript@psd401.net
-    - SMTP_PASSWORD=Eeth8xaS 
+    - SMTP_LOGIN=user@psd401.net
+    - SMTP_PASSWORD=Password1 
     - EXT_RELAY_HOST=psd401-net.mail.protection.outlook.com 
     - EXT_RELAY_PORT=25 
     - USE_TLS=yes 
